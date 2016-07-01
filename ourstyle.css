@@ -1,0 +1,57 @@
+p, h3{
+font-family:"Georgia";
+}
+html, body{ 
+height:100%;
+font-size:18px; 
+margin-left:auto;
+margin-right:auto;
+width:960px;
+background-color:#d0e4fe;
+}
+
+/* tables for webPage2.pl and webPage3.pl */
+table,th,td{
+font-family:"Georgia";
+border-collapse:collapse;
+border:1px solid black;
+padding:5px;
+}
+th{
+background: #404853;                                                                                                                  
+background: linear-gradient(#687587, #404853);                                                                                        
+color: #fff;                                                                                                                          
+}
+tbody tr:nth-child(even) td{                                                                                                          
+background: #e8eae9;                                                                                                                  
+background: linear-gradient(#f7faf9, #e8eae9);                                                                                        
+}
+tbody tr:nth-child(odd) td{                                                                                                           
+background: linear-gradient(#fff, #d0e4fe);                                                                                           
+}                                                                                                                                     
+foot tr.total td{                                                                                                                    
+background: #e8eae9;                                                                                                                  
+background: linear-gradient(#f7faf9, #e8eae9);                                                                                        
+}
+
+/* footers of all the pages so they stick to the bottom */
+#wrapper { 
+min-height:100%;  
+height:100%;  
+margin-left:auto;
+margin-right:auto;
+width:950px;
+}
+
+#bottom, #push { 
+height:22px;
+}
+
+#footer { 
+height:22px; 
+font-size:16px;
+background:orange; 
+color:#fff; 
+text-align:center
+}
+
